@@ -1,6 +1,6 @@
-# Desenvolvimento Web - Uninter
+# Desenvolvimento Web
 
-Neste repositório estão os materiais das aulas da disciplina de Desenvolvimento Web (Uninter).
+Neste repositório estão os materiais das aulas da disciplina de Desenvolvimento Web.
 
 O que será aprendido nas aulas:
 
