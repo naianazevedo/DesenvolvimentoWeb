@@ -1,4 +1,4 @@
-#Aula2-CSS
+# Aula 2 CSS
 
 Formatações básicas em CSS, que servem de base para o desenvolvimento de aplicações web.
 Foram abordados sobre o Cascading Style Sheets (CSS): definição, sintaxe, seletores e como aplicar CSS e hierarquia CSS.
