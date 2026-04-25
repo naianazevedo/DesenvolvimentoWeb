@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semântico e CSS</title>
+    <style>
+        html {
+            font-size: 10px;
+            box-sizing: border-box;
+            /* Aqui está sendo definido o tamanho da fonte e a forma como o box model é calculado */
+        }
+        body {
+            font:2rem sans-serif;
+            /* Aqui está sendo definido o tamanho da fonte e a família de fontes para o corpo do documento */
+            background: white;
+            /* Aqui está sendo definido a cor de fundo do corpo do documento */
+            color: #333;
+            /* Aqui está sendo definido a cor do texto para o corpo do documento */
+            margin: 40px;
+            /* Aqui está sendo definido a margem ao redor do corpo do documento */
+        }
+        .box {
+            color: white;
+            /* Aqui está sendo definido a cor do texto para os elementos com a classe "box" */
+            border: 4px solid #333;
+            /* Aqui está sendo definido a borda para os elementos com a classe "box" */
+            font-size: 2.6rem;
+            /* Aqui está sendo definido o tamanho da fonte para os elementos com a classe "box" */
+            padding: 10px;
+        }
+        .box1 {
+            background: #8cd9ad;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box1" */
+        }
+        .box2 {
+            background: #f9c74f;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box2" */
+        }
+        .box3 {
+            background: #f94144;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box3" */
+        }
+        .box4 {
+            background: #90be6d;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box4" */
+        }
+        .box5 {
+            background: #f3722c;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box5" */
+        }
+        .box6 {
+            background: #577590;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box6" */
+        }
+        .box7 {
+            background: #43aa8b;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box7" */
+        }
+        .box8 {
+            background: #f9844a;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box8" */
+        }
+        .box9 {
+            background: #277da1;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box9" */
+        }
+        .box {
+            background: #f6f4f4;
+            /* Aqui está sendo definido a cor de fundo para os elementos com a classe "box" */
+            border-color: black;
+            /* Aqui está sendo definido a cor da borda para os elementos com a classe "box" */
+            color: black;
+            /* Aqui está sendo definido a cor do texto para os elementos com a classe "box" */
+        }
+
+        .container {
+            display: grid;
+            /* Aqui está sendo definido o tipo de layout para os elementos com a classe "container" */
+            grid-template-columns: 100px 50px 80px 200px;
+            /* Aqui está sendo definido o número e o tamanho das colunas para os elementos com a classe "container" */
+            grid-template-rows: 80px 100px 100px;
+            /* Aqui está sendo definido o número e o tamanho das linhas para os elementos com a classe "container" */
+            gap: 10px;
+            /* Aqui está sendo definido o espaço entre os elementos dentro dos elementos com a classe "container" */
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+    </div>
+</body>
+</html>
