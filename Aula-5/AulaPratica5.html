@@ -1,0 +1,38 @@
+//Exercicios de JS e HTML
+//1. Implemente um programa que cálcule a área de um círculo, a partir do raio informado pelo usuário.
+//Qual a lógica?
+//Receber o valor do raio
+//Qual a fórmula da área do círculo? A = π * r²
+//Aplicar a fórmula e mostrar o resultado
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Prática 5</title>
+</head>
+<body>
+    <h1>Calculadora de Área do Círculo</h1>
+    <p>Insira o valor do raio do círculo para calcular a área.</p>
+<script>
+    //Solicitar ao usuário o valor do raio do círculo
+    let raio = prompt("Insira o valor do raio do círculo:");
+
+    //Converter o valor do raio de string para um número
+    raio = parseFloat(raio);
+
+    //Calcular a área do círculo usando a fórmula A = π * r²
+
+    const area = Math.PI * Math.pow(raio, 2);
+
+    //Exibir o resultado da área do círculo para o usuário
+
+    console.log("A área do círculo é:", area);
+
+    alert("A área do círculo é: " + area.toFixed(2)); // Exibe a área com 2 casas decimais
+
+</script>
+
+</body>
+</html>
